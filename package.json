@@ -1,16 +1,16 @@
 {
   "name": "drawer-pulse",
   "displayName": "DrawerPulse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Professional Cordova app for opening cash drawers on iOS and Android devices. Supports Network (WiFi/Ethernet) and USB (Android only) connections using ESC/POS protocol.",
   "main": "www/js/cash-drawer-api.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atishpaul/cash-drawer.git"
+    "url": "git+https://github.com/flenco-in/drawer-pulse.git"
   },
-  "homepage": "https://github.com/atishpaul/cash-drawer#readme",
+  "homepage": "https://github.com/flenco-in/drawer-pulse#readme",
   "bugs": {
-    "url": "https://github.com/atishpaul/cash-drawer/issues"
+    "url": "https://github.com/flenco-in/drawer-pulse/issues"
   },
   "scripts": {
     "test": "jest",

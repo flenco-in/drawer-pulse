@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://flenco.in/wp-content/uploads/2023/09/cropped-flenco-2023.png" alt="Flenco" width="200"/>
 
-  # 💰 DrawerPulse
+  # DrawerPulse
 
   [![npm version](https://img.shields.io/npm/v/drawer-pulse.svg)](https://www.npmjs.com/package/drawer-pulse)
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -22,13 +22,13 @@
 
 ## Features
 
-- ✅ **Multi-Protocol Support**: Standard ESC/POS, Epson, Star Micronics with auto-detection
-- ✅ **Network Connection**: WiFi/Ethernet (iOS & Android)
-- ✅ **USB Connection**: USB OTG (Android only)
-- ✅ **Cross-Platform**: Optimized for both iOS and Android
-- ✅ **Modern UI**: Clean Ubuntu-style grey theme
-- ✅ **Comprehensive Error Handling**: Detailed troubleshooting messages
-- ✅ **Production Ready**: Tested and battle-hardened
+- **Multi-Protocol Support**: Standard ESC/POS, Epson, Star Micronics with auto-detection
+- **Network Connection**: WiFi/Ethernet (iOS & Android)
+- **USB Connection**: USB OTG (Android only)
+- **Cross-Platform**: Optimized for both iOS and Android
+- **Modern UI**: Clean Ubuntu-style grey theme
+- **Comprehensive Error Handling**: Detailed troubleshooting messages
+- **Production Ready**: Tested and battle-hardened
 
 ## Installation
 
@@ -42,8 +42,8 @@ npm install drawer-pulse
 
 ```bash
 # Clone the repository
-git clone https://github.com/atishpaul/cash-drawer.git
-cd cash-drawer
+git clone https://github.com/flenco-in/drawer-pulse.git
+cd drawer-pulse
 
 # Install dependencies
 npm install
@@ -105,7 +105,7 @@ npm run clean
 ## Architecture
 
 ```
-cash-drawer/
+drawer-pulse/
 ├── www/
 │   ├── index.html              # Main UI
 │   ├── js/
@@ -319,18 +319,18 @@ For issues:
 2. Verify device and printer compatibility
 3. Test network/USB connection independently
 4. Review console logs in browser dev tools
-5. Open an issue on [GitHub](https://github.com/atishpaul/cash-drawer/issues)
+5. Open an issue on [GitHub](https://github.com/flenco-in/drawer-pulse/issues)
 
 ## Support the Project
 
-If this project helped you, consider buying me a coffee! ☕
+If this project helped you, consider buying me a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/atishpaul)
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/atishpaul">Atish Paul</a></sub>
+  <sub>Built by <a href="https://github.com/atishpaul">Atish Paul</a></sub>
   <br>
   <sub>Organized by <a href="https://flenco.in">Flenco.in</a></sub>
   <br><br>
