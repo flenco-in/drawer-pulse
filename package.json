@@ -1,0 +1,90 @@
+{
+  "name": "drawer-pulse",
+  "displayName": "DrawerPulse",
+  "version": "1.0.0",
+  "description": "Professional Cordova app for opening cash drawers on iOS and Android devices. Supports Network (WiFi/Ethernet) and USB (Android only) connections using ESC/POS protocol.",
+  "main": "www/js/cash-drawer-api.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atishpaul/cash-drawer.git"
+  },
+  "homepage": "https://github.com/atishpaul/cash-drawer#readme",
+  "bugs": {
+    "url": "https://github.com/atishpaul/cash-drawer/issues"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "clean": "cordova clean android && cordova clean ios",
+    "clean:cache": "rm -rf ~/.gradle/caches/transforms-4/ 2>/dev/null || true",
+    "setup:android": "cordova platform add android@13",
+    "setup:ios": "cordova platform add ios@7",
+    "build:android": "./build-android.sh",
+    "build:ios": "./build-ios.sh",
+    "run:android": "cordova run android",
+    "run:ios": "cordova run ios",
+    "emulator:android": "~/Library/Android/sdk/emulator/emulator -avd Pixel_9_Pro_XL",
+    "start:android": "npm run emulator:android & sleep 10 && npm run run:android",
+    "android": "./build-android.sh",
+    "ios": "./build-ios.sh"
+  },
+  "keywords": [
+    "cordova",
+    "cash-drawer",
+    "pos",
+    "escpos",
+    "receipt-printer",
+    "point-of-sale",
+    "android",
+    "ios",
+    "usb",
+    "network",
+    "wifi",
+    "ethernet",
+    "drawer-kick",
+    "retail"
+  ],
+  "author": {
+    "name": "Atish Paul",
+    "url": "https://github.com/atishpaul"
+  },
+  "contributors": [
+    {
+      "name": "Flenco.in",
+      "url": "https://flenco.in"
+    }
+  ],
+  "license": "Apache-2.0",
+  "files": [
+    "www/",
+    "config.xml",
+    "build-android.sh",
+    "build-ios.sh",
+    "LICENSE",
+    "README.md",
+    "IOS_BUILD_NOTES.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "cordova": ">=11.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "cordova-android": "^13.0.0",
+    "cordova-ios": "^7.1.1",
+    "cordova-plugin-android-permissions": "^1.1.5",
+    "cordova-plugin-network-information": "^3.0.0",
+    "jest": "^30.2.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-android-permissions": {}
+    }
+  }
+}
